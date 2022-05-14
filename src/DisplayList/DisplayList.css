@@ -1,9 +1,7 @@
 .full-list {
     display: flex;
     border: 5px solid rgba(0, 0, 0, 0.3);
-    flex-direction: row;
     flex-wrap: wrap;
-
     justify-content: space-between;
 
 }
@@ -15,5 +13,4 @@
     border: 5px solid rgba(100, 300, 100, 0.3);
     width: calc(33% - 10px);
     justify-content: center;
-
 }

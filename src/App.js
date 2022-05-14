@@ -5,9 +5,10 @@ import DisplayList from "./DisplayList/DisplayList";
 const LIST = ["a", "b", "c"]
 
 function App() {
+    console.log(LIST)
   return (
    <div>
-      <DisplayList/>
+      <DisplayList lista={LIST}/>
     </div>
   );
 }

@@ -1,8 +1,7 @@
-import './App.css';
 import DisplayList from "./DisplayList/DisplayList";
 
 
-const LIST = ["a", "b", "c"]
+const LIST = ["car", "house", "dog", "pool"]
 
 function App() {
   return (

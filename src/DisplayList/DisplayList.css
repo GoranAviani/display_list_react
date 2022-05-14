@@ -1,13 +1,19 @@
 .full-list{
     display: flex;
     border: 5px solid rgba(0,0,0,0.3);
-        flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    align-items: center;
+justify-content: space-between;
 
 }
 
 
 .list-item{
+    display: flex;
     font-size: 30px;
+    border: 5px solid rgba(100, 300, 100 , 0.3);
+    width: calc(33% - 10px);
+    justify-content: center;
+
 }

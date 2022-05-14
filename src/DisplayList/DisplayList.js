@@ -1,9 +1,12 @@
 import React from 'react';
 
-const DisplayList = () => {
+const DisplayList = ({lista}) => {
+    console.log(lista)
+    const processList = lista.map((item)=><p>{item}</p>)
+
     return(
         <div>
-            List
+            {processList}
         </div>
     )
 }

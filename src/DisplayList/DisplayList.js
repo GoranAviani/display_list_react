@@ -4,7 +4,7 @@ const DisplayList = ({lista}) => {
     const processList = lista.map((item)=><p>{item}</p>)
 
     return(
-        <div>
+        <div className="full-list">
             {processList}
         </div>
     )

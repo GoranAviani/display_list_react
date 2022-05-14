@@ -1,7 +1,7 @@
 import DisplayList from "./DisplayList/DisplayList";
 
 
-const LIST = ["car", "house", "dog", "pool"]
+const LIST = ["car", "house", "dog", "pool", "umbrella"]
 
 function App() {
   return (
